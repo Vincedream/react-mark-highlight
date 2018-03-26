@@ -1,0 +1,37 @@
+{
+  "name": "react-mark-highlight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "markdown",
+    "highlight"
+  ],
+  "author": "VinceDream",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "marked": "^0.3.19",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3",
+    "webpack-cli": "^2.0.13",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
