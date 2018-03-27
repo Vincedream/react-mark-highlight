@@ -194,7 +194,7 @@ if(false) {
 
 exports = module.exports = __webpack_require__(6)(false);
 // imports
-
+exports.push([module.i, "@import url(http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css);", ""]);
 
 // module
 exports.push([module.i, ".reactBox {\n  color: #464646;\n}\n.reactBox .hljs-name {\n  color: #8bc34a;\n}\n.reactBox .hljs-comment {\n  color: #969694;\n}\n.reactBox img {\n  max-width: 630px;\n  margin: 0 auto;\n  border: 1px solid #ddd;\n}\n.reactBox a {\n  color: #555;\n  text-decoration: none;\n  border-bottom: 1px solid #999;\n  word-wrap: break-word;\n}\n.reactBox a:hover {\n  color: #807e7e;\n}\n.reactBox pre {\n  margin: 0 10px;\n  font-family: Arial;\n  background: #484848;\n  color: #f1f1f1;\n  padding: 10px;\n  border-radius: 3px;\n  overflow: scroll;\n  line-height: 22px;\n  font-size: 14px;\n}\n.reactBox pre .hljs-comment {\n  color: #9e9e9d;\n}\n.reactBox table {\n  border-spacing: 0;\n  border: 1px solid #ddd;\n  word-wrap: break-all;\n}\n.reactBox th {\n  padding-bottom: 10px;\n  font-weight: 700;\n  border: 1px solid #ddd;\n}\n.reactBox td {\n  padding-bottom: 10px;\n  border: 1px solid #ddd;\n}\n.reactBox p {\n  line-height: 24px;\n  font-size: 15px;\n}\n.reactBox p img {\n  display: block;\n  margin: 18px auto;\n}\n.reactBox li {\n  font-size: 14px;\n  line-height: 26px;\n}\n.reactBox li img {\n  display: block;\n  margin: 0 auto;\n}\n.reactBox strong {\n  color: #191919;\n  font-size: 16px;\n}\n.reactBox h1 {\n  font-size: 22px;\n}\n.reactBox h2 {\n  font-size: 20px;\n}\n.reactBox h3 {\n  font-size: 18px;\n}\n.reactBox h4 {\n  font-size: 16px;\n}\n.reactBox h5 {\n  font-size: 14px;\n}\n.reactBox h6 {\n  font-size: 12px;\n}\n", ""]);
