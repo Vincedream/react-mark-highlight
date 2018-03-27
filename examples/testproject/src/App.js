@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactHighMark from './src/index'
-import logo from './logo.svg';
-import '../src/index.less';
+// import ReactHighMark from './mark'
+import ReactHighMark from 'react-mark-highlight'
+// import './index.less';
 
 class App extends Component {
   constructor(props){
@@ -15,12 +15,15 @@ class App extends Component {
       [key]: e.target.value
     })
   }
-
+  
   render() {
+    
     return (
-      <div>
+      <div >
+      TEST
       <textarea value={this.state.code} onChange={e => this.handleInput('code',e)}></textarea>
-        <ReactHighMark source={this.state.code} />
+      <ReactHighMark source={this.state.code}  />
+        {/* <ReactHighMark source={this.state.code} /> */}
       </div>
     );
   }
