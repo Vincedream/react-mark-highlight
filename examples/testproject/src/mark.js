@@ -19,7 +19,7 @@ const ReactHighMark = ({source="",style="fresh"}) => {
     xhtml: false
   })
   let htmlCode = marked(source)
-  let styleClass = `testBox ${style}`
+  let styleClass = `markBox ${style}`
   return(
     <div className={styleClass} >
       <div dangerouslySetInnerHTML={{__html: htmlCode}} ></div>
