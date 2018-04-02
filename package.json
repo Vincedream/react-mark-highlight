@@ -1,6 +1,6 @@
 {
   "name": "react-mark-highlight",
-  "version": "1.2.2",
+  "version": "1.2.6",
   "description": "A react component that integrates markdown with highlight.",
   "main": "dist/bundle.js",
   "files": [
@@ -32,6 +32,7 @@
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
     "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
     "webpack-node-externals": "^1.6.0"
   }
